@@ -68,6 +68,7 @@ main{
 .nick{
     font-size: clamp(0.8em, 1em, 2vw);
     color: var(--White);
+    cursor: pointer;
 }
 .editar{
     height: 100%;
@@ -89,6 +90,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
 }
 .img-edt{
     width: 20px;
